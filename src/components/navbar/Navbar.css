@@ -1,0 +1,27 @@
+.navbar{ 
+    background-image: linear-gradient(to left top, #040141, #010845, #000e48, #00134c, #00174f, #1a275e, #2e386d, #414a7c, #68709b, #9198bb, #bcc2dc, #e9edfd);
+}
+.navbar-brand{
+    width: 5rem;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.nav-link:hover{
+    transition: all 1s ease !important;
+}
+.dropdown-menu{
+    background-image: linear-gradient(to left top, #040141, #010845, #000e48, #00134c, #00174f, #1a275e, #0c174b, #131833, #151e51, #415bdb, #5266c0, #3d5ee3);
+}
+li > a:hover{
+    background:rgba(255, 255, 255, 0.22) !important; 
+    transition: all 0.3s ease-in-out !important;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(23, 133, 233, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+.navbar-light .navbar-toggler{
+    border: 1px solid rgba(23, 133, 233, 0.8);
+}

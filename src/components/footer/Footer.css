@@ -1,0 +1,15 @@
+footer{
+    margin-top: auto;
+    min-height: 30vh;
+    background-image: linear-gradient(to left top, #040141, #010845, #000e48, #00134c, #00174f, #1a275e, #2e386d, #414a7c, #68709b, #9198bb, #bcc2dc, #e9edfd);
+}
+footer .footer-links li a{
+    text-decoration: none !important;
+    color: rgb(100, 160, 245) !important;
+}
+footer .footer-links li a:hover{
+    color: #000 !important;
+    background-color: white !important;
+    transition: all 1s ease-in-out !important;
+    border-radius: 0.4rem !important;
+}
